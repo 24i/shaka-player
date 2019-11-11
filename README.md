@@ -1,3 +1,12 @@
+# for 24i
+
+This repo is required only for Shaka's nightly builds, as they are not published to npm, and they require to be built.
+
+1) Merge on this repo `master` the target branch from [Shaka Player](https://github.com/google/shaka-player) from its official repo.
+2) Run `npm install`
+3) Run `./build/all.py --force` -> this will generate needed files on `/dist/` folder.
+4) Happy coding!
+
 # ![Shaka Player](docs/shaka-player-logo.png)
 
 Shaka Player is an open-source JavaScript library for adaptive media.  It plays
